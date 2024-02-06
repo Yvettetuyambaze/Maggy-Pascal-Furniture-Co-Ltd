@@ -28,18 +28,18 @@
                <div class="row">
                   <div class="col-md-4 col-sm-12 left-rs">
                      <div class="navbar-header">
-                        <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> 
-                        <span class="sr-only">Toggle navigation</span> 
-                        <span class="icon-bar"></span> 
-                        <span class="icon-bar"></span> 
-                        <span class="icon-bar"></span> 
+                        <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse"
+                           data-target="productpage.htmlnavbar" aria-expanded="false">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                        <a href="index.html" class="navbar-brand" style="margin-top: -22px;border-radius: 35%;"><img
+                              src="images/logomp.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
-                        <div class="form">
-                           <input type="text" class="form-control" placeholder="Search for products or companies">
-                        </div>
+                        <h4>Maggy&Pascal Furniture</h4>
                      </form>
                   </div>
                   <div class="col-md-8 col-sm-12">
@@ -47,24 +47,36 @@
                         <div class="login-sr">
                            <div class="login-signup">
                               <ul>
-                                 <li><a href="#">Login</a></li>
-                                 <li><a class="custom-b" href="#">Sign up</a></li>
+                                 <li><a href="signin.html">Login</a></li>
+                                 <li><a class="custom-b" href="signup.html">Sign up</a></li>
                               </ul>
                            </div>
                         </div>
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="images/flag.png" alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a data-toggle="modal" data-target="productpage.htmlmyModal" href="productpage.html"> <span>Change</span> <img
+                                          src="images/flag.png" alt="" /> </a> </li>
+                                 <li> <a href="productpage.html"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
                               </ul>
                            </div>
                         </div>
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">How it works</a></li>
-                                 <li><a href="about-us.html">Maggy&Pascal Furniture for Business</a></li>
+                                 <li><a href="index.html">Home</a></li>
+                                 <li class="dropdown">
+                                    <a href="productpage.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                       aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                       <li><a href="category.html">Upholstered Living Room Sets</a></li>
+                                       <li><a href="category.html">Bedroom Furniture and Bedding</a></li>
+                                       <li><a href="category.html">Recliners and Motion Furniture</a></li>
+                                       <li><a href="category.html">Wood Furniture</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="profile.html">About</a></li>
+                                 <li><a href="contact.html">Contact Us</a></li>
                               </ul>
                            </div>
                         </div>
@@ -72,8 +84,9 @@
                   </div>
                </div>
             </div>
-            <!--/.container-fluid --> 
+            <!--/.container-fluid -->
          </nav>
+   
       </header>
       <!-- Modal -->
       <div class="modal fade lug" id="myModal" role="dialog">
@@ -86,8 +99,9 @@
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="#"><img src="images/flag-up-1.png" alt="" /> United States</a></li>
-                     <li><a href="#"><img src="images/flag-up-2.png" alt="" /> France </a></li>
+                     <li><a href="productpage.html"><img src="images/flag-up-1.png" alt="" /> English</a></li>
+                     <li><a href="productpage.html"><img src="images/flag-up-2.png" alt="" /> French </a></li>
+                     <li><a href="productpage.html"><img src="images/flag-up-2.png" alt="" /> Kinyarwanda </a></li>
                   </ul>
                </div>
             </div>
@@ -95,9 +109,12 @@
       </div>
       <div id="sidebar" class="top-nav">
          <ul id="sidebar-nav" class="sidebar-nav">
-            <li><a href="#">Help</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Maggy&Pascal Furniture for Business</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="profile.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="howitworks.html">Help</a></li>
+   
          </ul>
       </div>
       <div class="furniture-box">
@@ -105,7 +122,7 @@
             <div class="container">
                <div class="row">
                   <ol class="breadcrumb">
-                     <li><a href="#">Forntpage </a></li>
+                     <li><a href="productpage.html">Forntpage </a></li>
                      <li class="active">Furniture</li>
                   </ol>
                </div>
@@ -216,9 +233,9 @@
                            <div class="panel-group" id="accordion">
                               <div class="panel panel-default">
                                  <div class="panel-heading">
-                                    <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="panel-title expand">
+                                    <h4 data-toggle="collapse" data-parent="productpage.htmlaccordion" href="productpage.htmlcollapse1" class="panel-title expand">
                                        <div class="right-arrow pull-right"><span class="caret"></span></div>
-                                       <a href="#">Sort by</a>
+                                       <a href="productpage.html">Sort by</a>
                                     </h4>
                                  </div>
                                  <div id="collapse1" class="panel-collapse collapse">
@@ -227,9 +244,9 @@
                               </div>
                               <div class="panel panel-default">
                                  <div class="panel-heading">
-                                    <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="panel-title expand">
+                                    <h4 data-toggle="collapse" data-parent="productpage.htmlaccordion" href="productpage.htmlcollapse2" class="panel-title expand">
                                        <div class="right-arrow pull-right"><span class="caret"></span></div>
-                                       <a href="#">Ships from(country)</a>
+                                       <a href="productpage.html">Ships from(country)</a>
                                     </h4>
                                  </div>
                                  <div id="collapse2" class="panel-collapse collapse">
@@ -238,9 +255,9 @@
                               </div>
                               <div class="panel panel-default">
                                  <div class="panel-heading">
-                                    <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="panel-title expand">
+                                    <h4 data-toggle="collapse" data-parent="productpage.htmlaccordion" href="productpage.htmlcollapse3" class="panel-title expand">
                                        <div class="right-arrow pull-right"><span class="caret"></span></div>
-                                       <a href="#">Style</a>
+                                       <a href="productpage.html">Style</a>
                                     </h4>
                                  </div>
                                  <div id="collapse3" class="panel-collapse collapse">
@@ -249,9 +266,9 @@
                               </div>
                               <div class="panel panel-default">
                                  <div class="panel-heading">
-                                    <h4 data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="panel-title expand">
+                                    <h4 data-toggle="collapse" data-parent="productpage.htmlaccordion" href="productpage.htmlcollapse4" class="panel-title expand">
                                        <div class="right-arrow pull-right"><span class="caret"></span></div>
-                                       <a href="#">Pattern type</a>
+                                       <a href="productpage.html">Pattern type</a>
                                     </h4>
                                  </div>
                                  <div id="collapse4" class="panel-collapse collapse">
@@ -266,7 +283,7 @@
                      <div class="furniture-middle">
                         <div class="big-box">
                            <div class="big-img-box">
-                              <img src="images/lag-60.png" alt="#" />
+                              <img src="images/lag-60.png" alt="productpage.html" />
                            </div>
                            <div class="big-dit-b clearfix">
                               <div class="col-md-6">
@@ -274,8 +291,8 @@
                                     <h3>Etiam sit amet urna semper, auctor arcu id</h3>
                                     <p>By <span>Kale Celik Esya</span> under <span>Chairs</span></p>
                                     <div class="prod-btn">
-                                       <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
-                                       <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                       <a href="productpage.html"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                       <a href="productpage.html"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
                                        <p>23 likes</p>
                                     </div>
                                  </div>
@@ -283,8 +300,8 @@
                               <div class="col-md-6">
                                  <div class="right-big-b">
                                     <div class="tight-btn-b clearfix">
-                                       <a class="view-btn" href="#">View</a>
-                                       <a href="#">$320</a>
+                                       <a class="view-btn" href="productpage.html">View</a>
+                                       <a href="productpage.html">RWF320,OOO</a>
                                     </div>
                                     <div class="like-list">
                                        <ul>
@@ -319,18 +336,18 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr1.png" alt="#" />
+                                    <img src="images/tr1.png" alt="productpage.html" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
                                        <h4>Aenean luctus lacus</h4>
                                        <p>By <span>Beko</span> under <span>Lights</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="productpage.html" tabindex="0">RWF122,000</a>
                                  </div>
                                  <div class="prod-btn">
-                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
-                                    <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                    <a href="productpage.html"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                    <a href="productpage.html"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
                                     <p>23 likes</p>
                                  </div>
                               </div>
@@ -338,18 +355,18 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr2.png" alt="#" />
+                                    <img src="images/tr2.png" alt="productpage.html" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
                                        <h4>Sed vestibulum</h4>
                                        <p>By <span>Beko</span> under <span>Chairs</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="productpage.html" tabindex="0">RWF122,000</a>
                                  </div>
                                  <div class="prod-btn">
-                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
-                                    <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                    <a href="productpage.html"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                    <a href="productpage.html"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
                                     <p>23 likes</p>
                                  </div>
                               </div>
@@ -365,8 +382,8 @@
                                     <h3>Aenean luctus lacus</h3>
                                     <p>By <span>Kale Celik Esya</span> under <span>Chairs</span></p>
                                     <div class="prod-btn">
-                                       <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
-                                       <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                       <a href="productpage.html"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                       <a href="productpage.html"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
                                        <p>23 likes</p>
                                     </div>
                                  </div>
@@ -374,8 +391,8 @@
                               <div class="col-md-6">
                                  <div class="right-big-b">
                                     <div class="tight-btn-b clearfix">
-                                       <a class="view-btn" href="#">View</a>
-                                       <a href="#">$320</a>
+                                       <a class="view-btn" href="productpage.html">View</a>
+                                       <a href="productpage.html">RWF320,000</a>
                                     </div>
                                     <div class="like-list">
                                        <ul>
@@ -410,18 +427,18 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr3.png" alt="#" />
+                                    <img src="images/tr3.png" alt="productpage.html" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
                                        <h4>Sed vestibulum</h4>
                                        <p>By <span>Beko</span> under <span>Lights</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="productpage.html" tabindex="0">RWF122,000</a>
                                  </div>
                                  <div class="prod-btn">
-                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
-                                    <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                    <a href="productpage.html"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                    <a href="productpage.html"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
                                     <p>23 likes</p>
                                  </div>
                               </div>
@@ -429,18 +446,18 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr4.png" alt="#" />
+                                    <img src="images/tr4.png" alt="productpage.html" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
                                        <h4>Aenean luctus lacus</h4>
                                        <p>By <span>Beko</span> under <span>Chairs</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="productpage.html" tabindex="0">RWF122,000</a>
                                  </div>
                                  <div class="prod-btn">
-                                    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
-                                    <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                    <a href="productpage.html"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                    <a href="productpage.html"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
                                     <p>23 likes</p>
                                     <p>23 likes</p>
                                  </div>
@@ -454,23 +471,23 @@
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
                            <ul>
-                              <li><a href="#"><img width="32" src="images/product/1.png" alt="#" /> Chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/2.png" alt="#" /> Office chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/1.png" alt="" /> Special chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/4.png" alt="" /> Living room</a></li>
-                              <li><a href="#"><img width="32" src="images/product/5.png" alt="" /> Room furniture</a></li>
-                              <li><a href="#"><img width="32" src="images/product/2.png" alt="" /> Tv Furniture</a></li>
-                              <li><a href="#"><img width="32" src="images/product/11.png" alt="" /> Office Chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/10.png" alt="" /> Special lights</a></li>
-                              <li><a href="#"><img width="32" src="images/product/4.png" alt="" /> Home office</a></li>
-                              <li><a href="#"><img width="32" src="images/product/10.png" alt="" /> Kids furniture</a></li>
-                              <li><a href="#"><img width="32" src="images/product/11.png" alt="" /> Accessories</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/1.png" alt="productpage.html" /> Chairs</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/2.png" alt="productpage.html" /> Office chairs</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/1.png" alt="" /> Special chairs</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/4.png" alt="" /> Living room</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/5.png" alt="" /> Room furniture</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/2.png" alt="" /> Tv Furniture</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/11.png" alt="" /> Office Chairs</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/10.png" alt="" /> Special lights</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/4.png" alt="" /> Home office</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/10.png" alt="" /> Kids furniture</a></li>
+                              <li><a href="productpage.html"><img width="32" src="images/product/11.png" alt="" /> Accessories</a></li>
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div class="loding-box">
-                     <a href="#">
+                     <a href="productpage.html">
                         <div class="sk-wave">
                            <div class="sk-rect sk-rect1"></div>
                            <div class="sk-rect sk-rect2"></div>
@@ -497,14 +514,14 @@
                      </div>
                      <div class="col-md-6 col-sm-6">
                         <div class="form-box">
-                           <input type="text" placeholder="Enter yopur e-mail" />
+                           <input type="text" placeholder="Enter your e-mail" />
                            <button>Continue</button>
                         </div>
                      </div>
                      <div class="col-md-4 col-sm-12">
                         <div class="help-box-f">
-                           <h4>Question? Call us on 12 34 56 78 for help</h4>
-                           <p>Easy setup - no payment fees - up to 100 products for free</p>
+                           <h4>Question? Call us on +250 785 743 681 for help</h4>
+   
                         </div>
                      </div>
                   </div>
@@ -512,131 +529,93 @@
                      <div class="col-md-6 col-sm-6">
                         <div class="left-f-box">
                            <div class="col-sm-4">
-                              <h2>SELL ON Maggy&Pascal Furniture</h2>
+                              <h2>Quick Links</h2>
                               <ul>
-                                 <li><a href="#">Create account</a></li>
-                                 <li><a href="howitworks.html">How it works suppliers</a></li>
-                                 <li><a href="pricing.html">Pricing</a></li>
-                                 <li><a href="#">FAQ for Suppliers</a></li>
+                                 <li><a href="index.html">Home</a></li>
+                                 <li class="dropdown">
+                                    <a href="productpage.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                       aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                       <li><a href="category.html">Upholstered Living Room Sets</a></li>
+                                       <li><a href="category.html">Bedroom Furniture and Bedding</a></li>
+                                       <li><a href="category.html">Recliners and Motion Furniture</a></li>
+                                       <li><a href="category.html">Wood Furniture</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="profile.html">About</a></li>
+                                 <li><a href="contact.html">Contact Us</a></li>
                               </ul>
                            </div>
                            <div class="col-sm-4">
-                              <h2>BUY ON Maggy&Pascal Furniture</h2>
-                              <ul>
-                                 <li><a href="#">Create account</a></li>
-                                 <li><a href="#">How it works buyers</a></li>
-                                 <li><a href="#">Categories</a></li>
-                                 <li><a href="#">FAQ for buyers</a></li>
+                              <h2>Categories</h2>
+                              <ul class="col-sm-4">
+                                 <li><a href="category.html">Furniture</a></li>
+                                 <li><a href="category.html">Interior Design</a></li>
+                                 <li><a href="category.html">Leather</a></li>
+                                 <li><a href="category.html">Metal</a></li>
                               </ul>
                            </div>
                            <div class="col-sm-4">
-                              <h2>COMPANY</h2>
-                              <ul>
-                                 <li><a href="about-us.html">About Maggy&Pascal Furniture</a></li>
-                                 <li><a href="#">Contact us</a></li>
-                                 <li><a href="#">Press</a></li>
-                                 <li><a href="#">Careers</a></li>
-                                 <li><a href="#">Terms of use</a></li>
+                              <h2>Products</h2>
+                              <ul class="col-sm-4">
+                                 <li><a href="category.html">Office</a></li>
+                                 <li><a href="category.html">Decoratives</a></li>
+                                 <li><a href="category.html">Electronics</a></li>
+                                 <li><a href="category.html">Machines</a></li>
+                                 <li><a href="category.html">Building</a></li>
                               </ul>
                            </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6 col-sm-6">
-                        <div class="right-f-box">
-                           <h2>INDUSTRIES</h2>
-                           <ul class="col-sm-4">
-                              <li><a href="#">Textiles</a></li>
-                              <li><a href="#">Furniture</a></li>
-                              <li><a href="#">Leather</a></li>
-                              <li><a href="#">Agriculture</a></li>
-                              <li><a href="#">Food & drinks</a></li>
-                           </ul>
-                           <ul class="col-sm-4">
-                              <li><a href="#">Office</a></li>
-                              <li><a href="#">Decoratives</a></li>
-                              <li><a href="#">Electronics</a></li>
-                              <li><a href="#">Machines</a></li>
-                              <li><a href="#">Building</a></li>
-                           </ul>
-                           <ul class="col-sm-4">
-                              <li><a href="#">Cosmetics</a></li>
-                              <li><a href="#">Health</a></li>
-                              <li><a href="#">Jewelry</a></li>
-                              <li><a href="#">See all here</a></li>
-                           </ul>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
-         <div class="copyright">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-8">
-                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
-                  </div>
-                  <div class="col-md-4">
-                     <ul class="list-inline socials">
-                        <li>
-                           <a href="">
-                           <i class="fa fa-facebook" aria-hidden="true"></i>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="">
-                           <i class="fa fa-twitter" aria-hidden="true"></i>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="">
-                           <i class="fa fa-instagram" aria-hidden="true"></i>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                           <i class="fa fa-linkedin" aria-hidden="true"></i>
-                           </a>
-                        </li>
-                     </ul>
-                     <ul class="right-flag">
-                        <li><a href="#"><img src="images/flag.png" alt="" /> <span>Change</span></a></li>
-                     </ul>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8">
+                        <p><img width="90" src="images/logo.png" alt="productpage.html" style="margin-top: -5px;" /> All Rights Reserved.
+                           Maggy&Pascal Furniture Co Ltd © 2024</p>
+                     </div>
+                     <div class="col-md-4">
+                        <ul class="list-inline socials">
+                           <li>
+                              <a href="">
+                                 <i class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="">
+                                 <i class="fa fa-twitter" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="">
+                                 <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="productpage.html">
+                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                        </ul>
+                        <ul class="right-flag">
+                           <li><a href="productpage.html"><img src="images/flag.png" alt="" /> <span>Change</span></a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
       </footer>
-      <!--main js--> 
-      <script src="js/jquery-1.12.4.min.js"></script> 
-      <!--bootstrap js--> 
-      <script src="js/bootstrap.min.js"></script> 
+      <!--main js-->
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <!--bootstrap js-->
+      <script src="js/bootstrap.min.js"></script>
       <script src="js/bootstrap-select.min.js"></script>
-      <script src="js/slick.min.js"></script> 
-      <script src="js/jquery-ui.js"></script> 
+      <script src="js/slick.min.js"></script>
       <script src="js/wow.min.js"></script>
-      <!--custom js--> 
+      <!--custom js-->
       <script src="js/custom.js"></script>
-      <script>
-         $( function() {
-         	$( "#slider-range" ).slider({
-         		range: true,
-         		min: 0,
-         		max: 2000,
-         		values: [ 158, 1230 ],
-         		slide: function( event, ui ) {
-         			$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-         		}
-         	});
-         	$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-         		" - $" + $( "#slider-range" ).slider( "values", 1 ) );
-         } );
-      </script>
-      <script src="js/jquery.nicescroll.min.js"></script> 
-      <script>
-         $(document).ready(function() {
-           $("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"#ededed",boxzoom:true}); // First scrollable DIV
-         });
-      </script>
    </body>
 </html>
